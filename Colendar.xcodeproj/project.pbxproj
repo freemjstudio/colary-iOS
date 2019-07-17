@@ -13,8 +13,8 @@
 		240C394222D9D448000F7659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240C394022D9D448000F7659 /* LaunchScreen.storyboard */; };
 		240C394D22D9D448000F7659 /* ColendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C394C22D9D448000F7659 /* ColendarTests.swift */; };
 		240C395822D9D448000F7659 /* ColendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C395722D9D448000F7659 /* ColendarUITests.swift */; };
-		247D355D22DF777F00D6CBD9 /* MainWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D355C22DF777F00D6CBD9 /* MainWriteViewController.swift */; };
-		247D355F22DF793C00D6CBD9 /* SegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D355E22DF793C00D6CBD9 /* SegmentedViewController.swift */; };
+		247D356122DF7B1C00D6CBD9 /* MainWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D356022DF7B1C00D6CBD9 /* MainWriteViewController.swift */; };
+		247D356322DF7B5400D6CBD9 /* SegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D356222DF7B5400D6CBD9 /* SegmentedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +47,8 @@
 		240C395322D9D448000F7659 /* ColendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		240C395722D9D448000F7659 /* ColendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColendarUITests.swift; sourceTree = "<group>"; };
 		240C395922D9D448000F7659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		247D355C22DF777F00D6CBD9 /* MainWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWriteViewController.swift; sourceTree = "<group>"; };
-		247D355E22DF793C00D6CBD9 /* SegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedViewController.swift; sourceTree = "<group>"; };
+		247D356022DF7B1C00D6CBD9 /* MainWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWriteViewController.swift; sourceTree = "<group>"; };
+		247D356222DF7B5400D6CBD9 /* SegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				240C393722D9D445000F7659 /* AppDelegate.swift */,
 				240C393B22D9D445000F7659 /* Main.storyboard */,
-				247D355E22DF793C00D6CBD9 /* SegmentedViewController.swift */,
-				247D355C22DF777F00D6CBD9 /* MainWriteViewController.swift */,
+				247D356222DF7B5400D6CBD9 /* SegmentedViewController.swift */,
+				247D356022DF7B1C00D6CBD9 /* MainWriteViewController.swift */,
 				240C393E22D9D448000F7659 /* Assets.xcassets */,
 				240C394022D9D448000F7659 /* LaunchScreen.storyboard */,
 				240C394322D9D448000F7659 /* Info.plist */,
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				247D355F22DF793C00D6CBD9 /* SegmentedViewController.swift in Sources */,
-				247D355D22DF777F00D6CBD9 /* MainWriteViewController.swift in Sources */,
+				247D356322DF7B5400D6CBD9 /* SegmentedViewController.swift in Sources */,
 				240C393822D9D445000F7659 /* AppDelegate.swift in Sources */,
+				247D356122DF7B1C00D6CBD9 /* MainWriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

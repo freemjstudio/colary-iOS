@@ -13,7 +13,7 @@
         <!--Main Write View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainWriteViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainWriteViewController" customModule="Colendar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -53,7 +53,7 @@
         <!--Segmented View Controller-->
         <scene sceneID="366-sn-34O">
             <objects>
-                <viewController id="kF4-Dh-pC7" customClass="SegmentedViewController" sceneMemberID="viewController">
+                <viewController id="kF4-Dh-pC7" customClass="SegmentedViewController" customModule="Colendar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U6P-eM-NSN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
