@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		240C393822D9D445000F7659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C393722D9D445000F7659 /* AppDelegate.swift */; };
+		240C393A22D9D445000F7659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C393922D9D445000F7659 /* ViewController.swift */; };
+		240C393D22D9D445000F7659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240C393B22D9D445000F7659 /* Main.storyboard */; };
+		240C393F22D9D448000F7659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240C393E22D9D448000F7659 /* Assets.xcassets */; };
+		240C394222D9D448000F7659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240C394022D9D448000F7659 /* LaunchScreen.storyboard */; };
+		240C394D22D9D448000F7659 /* ColendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C394C22D9D448000F7659 /* ColendarTests.swift */; };
+		240C395822D9D448000F7659 /* ColendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C395722D9D448000F7659 /* ColendarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		240C394922D9D448000F7659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240C392C22D9D445000F7659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 240C393322D9D445000F7659;
+			remoteInfo = Colendar;
+		};
+		240C395422D9D448000F7659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240C392C22D9D445000F7659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 240C393322D9D445000F7659;
+			remoteInfo = Colendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		240C393422D9D445000F7659 /* Colendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		240C393722D9D445000F7659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		240C393922D9D445000F7659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		240C393C22D9D445000F7659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		240C393E22D9D448000F7659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		240C394122D9D448000F7659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		240C394322D9D448000F7659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240C394822D9D448000F7659 /* ColendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		240C394C22D9D448000F7659 /* ColendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColendarTests.swift; sourceTree = "<group>"; };
+		240C394E22D9D448000F7659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240C395322D9D448000F7659 /* ColendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		240C395722D9D448000F7659 /* ColendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColendarUITests.swift; sourceTree = "<group>"; };
+		240C395922D9D448000F7659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		240C393122D9D445000F7659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240C394522D9D448000F7659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240C395022D9D448000F7659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		240C392B22D9D445000F7659 = {
+			isa = PBXGroup;
+			children = (
+				240C393622D9D445000F7659 /* Colendar */,
+				240C394B22D9D448000F7659 /* ColendarTests */,
+				240C395622D9D448000F7659 /* ColendarUITests */,
+				240C393522D9D445000F7659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		240C393522D9D445000F7659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				240C393422D9D445000F7659 /* Colendar.app */,
+				240C394822D9D448000F7659 /* ColendarTests.xctest */,
+				240C395322D9D448000F7659 /* ColendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		240C393622D9D445000F7659 /* Colendar */ = {
+			isa = PBXGroup;
+			children = (
+				240C393722D9D445000F7659 /* AppDelegate.swift */,
+				240C393922D9D445000F7659 /* ViewController.swift */,
+				240C393B22D9D445000F7659 /* Main.storyboard */,
+				240C393E22D9D448000F7659 /* Assets.xcassets */,
+				240C394022D9D448000F7659 /* LaunchScreen.storyboard */,
+				240C394322D9D448000F7659 /* Info.plist */,
+			);
+			path = Colendar;
+			sourceTree = "<group>";
+		};
+		240C394B22D9D448000F7659 /* ColendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				240C394C22D9D448000F7659 /* ColendarTests.swift */,
+				240C394E22D9D448000F7659 /* Info.plist */,
+			);
+			path = ColendarTests;
+			sourceTree = "<group>";
+		};
+		240C395622D9D448000F7659 /* ColendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				240C395722D9D448000F7659 /* ColendarUITests.swift */,
+				240C395922D9D448000F7659 /* Info.plist */,
+			);
+			path = ColendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		240C393322D9D445000F7659 /* Colendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240C395C22D9D448000F7659 /* Build configuration list for PBXNativeTarget "Colendar" */;
+			buildPhases = (
+				240C393022D9D445000F7659 /* Sources */,
+				240C393122D9D445000F7659 /* Frameworks */,
+				240C393222D9D445000F7659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colendar;
+			productName = Colendar;
+			productReference = 240C393422D9D445000F7659 /* Colendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		240C394722D9D448000F7659 /* ColendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240C395F22D9D448000F7659 /* Build configuration list for PBXNativeTarget "ColendarTests" */;
+			buildPhases = (
+				240C394422D9D448000F7659 /* Sources */,
+				240C394522D9D448000F7659 /* Frameworks */,
+				240C394622D9D448000F7659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				240C394A22D9D448000F7659 /* PBXTargetDependency */,
+			);
+			name = ColendarTests;
+			productName = ColendarTests;
+			productReference = 240C394822D9D448000F7659 /* ColendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		240C395222D9D448000F7659 /* ColendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240C396222D9D448000F7659 /* Build configuration list for PBXNativeTarget "ColendarUITests" */;
+			buildPhases = (
+				240C394F22D9D448000F7659 /* Sources */,
+				240C395022D9D448000F7659 /* Frameworks */,
+				240C395122D9D448000F7659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				240C395522D9D448000F7659 /* PBXTargetDependency */,
+			);
+			name = ColendarUITests;
+			productName = ColendarUITests;
+			productReference = 240C395322D9D448000F7659 /* ColendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		240C392C22D9D445000F7659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "우민지";
+				TargetAttributes = {
+					240C393322D9D445000F7659 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					240C394722D9D448000F7659 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 240C393322D9D445000F7659;
+					};
+					240C395222D9D448000F7659 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 240C393322D9D445000F7659;
+					};
+				};
+			};
+			buildConfigurationList = 240C392F22D9D445000F7659 /* Build configuration list for PBXProject "Colendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 240C392B22D9D445000F7659;
+			productRefGroup = 240C393522D9D445000F7659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				240C393322D9D445000F7659 /* Colendar */,
+				240C394722D9D448000F7659 /* ColendarTests */,
+				240C395222D9D448000F7659 /* ColendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		240C393222D9D445000F7659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240C394222D9D448000F7659 /* LaunchScreen.storyboard in Resources */,
+				240C393F22D9D448000F7659 /* Assets.xcassets in Resources */,
+				240C393D22D9D445000F7659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240C394622D9D448000F7659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240C395122D9D448000F7659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		240C393022D9D445000F7659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240C393A22D9D445000F7659 /* ViewController.swift in Sources */,
+				240C393822D9D445000F7659 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240C394422D9D448000F7659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240C394D22D9D448000F7659 /* ColendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240C394F22D9D448000F7659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240C395822D9D448000F7659 /* ColendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		240C394A22D9D448000F7659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 240C393322D9D445000F7659 /* Colendar */;
+			targetProxy = 240C394922D9D448000F7659 /* PBXContainerItemProxy */;
+		};
+		240C395522D9D448000F7659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 240C393322D9D445000F7659 /* Colendar */;
+			targetProxy = 240C395422D9D448000F7659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		240C393B22D9D445000F7659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				240C393C22D9D445000F7659 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		240C394022D9D448000F7659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				240C394122D9D448000F7659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		240C395A22D9D448000F7659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		240C395B22D9D448000F7659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		240C395D22D9D448000F7659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Colendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freemjstudio.Colendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		240C395E22D9D448000F7659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Colendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freemjstudio.Colendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		240C396022D9D448000F7659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freemjstudio.ColendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colendar.app/Colendar";
+			};
+			name = Debug;
+		};
+		240C396122D9D448000F7659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freemjstudio.ColendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colendar.app/Colendar";
+			};
+			name = Release;
+		};
+		240C396322D9D448000F7659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freemjstudio.ColendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Colendar;
+			};
+			name = Debug;
+		};
+		240C396422D9D448000F7659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = freemjstudio.ColendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Colendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		240C392F22D9D445000F7659 /* Build configuration list for PBXProject "Colendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240C395A22D9D448000F7659 /* Debug */,
+				240C395B22D9D448000F7659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240C395C22D9D448000F7659 /* Build configuration list for PBXNativeTarget "Colendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240C395D22D9D448000F7659 /* Debug */,
+				240C395E22D9D448000F7659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240C395F22D9D448000F7659 /* Build configuration list for PBXNativeTarget "ColendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240C396022D9D448000F7659 /* Debug */,
+				240C396122D9D448000F7659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240C396222D9D448000F7659 /* Build configuration list for PBXNativeTarget "ColendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240C396322D9D448000F7659 /* Debug */,
+				240C396422D9D448000F7659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 240C392C22D9D445000F7659 /* Project object */;
+}
